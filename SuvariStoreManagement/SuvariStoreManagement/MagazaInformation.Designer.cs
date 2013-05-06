@@ -93,9 +93,9 @@
             "AV",
             "SE",
             "YK"});
-            this.cmbBolgeKodu.Location = new System.Drawing.Point(228, 12);
+            this.cmbBolgeKodu.Location = new System.Drawing.Point(227, 12);
             this.cmbBolgeKodu.Name = "cmbBolgeKodu";
-            this.cmbBolgeKodu.Size = new System.Drawing.Size(317, 21);
+            this.cmbBolgeKodu.Size = new System.Drawing.Size(318, 21);
             this.cmbBolgeKodu.TabIndex = 0;
             this.cmbBolgeKodu.SelectedIndexChanged += new System.EventHandler(this.cmbBolgeKodu_SelectedIndexChanged);
             // 
@@ -245,26 +245,26 @@
             // 
             // txtMagazaKodu
             // 
-            this.txtMagazaKodu.Location = new System.Drawing.Point(228, 41);
+            this.txtMagazaKodu.Location = new System.Drawing.Point(227, 41);
             this.txtMagazaKodu.MaxLength = 4;
             this.txtMagazaKodu.Name = "txtMagazaKodu";
-            this.txtMagazaKodu.Size = new System.Drawing.Size(317, 20);
+            this.txtMagazaKodu.Size = new System.Drawing.Size(318, 20);
             this.txtMagazaKodu.TabIndex = 19;
             this.txtMagazaKodu.TextChanged += new System.EventHandler(this.txtMagazaKodu_TextChanged);
             // 
             // txtMagazaAdi
             // 
-            this.txtMagazaAdi.Location = new System.Drawing.Point(229, 95);
+            this.txtMagazaAdi.Location = new System.Drawing.Point(227, 95);
             this.txtMagazaAdi.Name = "txtMagazaAdi";
-            this.txtMagazaAdi.Size = new System.Drawing.Size(316, 20);
+            this.txtMagazaAdi.Size = new System.Drawing.Size(318, 20);
             this.txtMagazaAdi.TabIndex = 21;
             this.txtMagazaAdi.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // txtMagazaAlan
             // 
-            this.txtMagazaAlan.Location = new System.Drawing.Point(228, 184);
+            this.txtMagazaAlan.Location = new System.Drawing.Point(227, 184);
             this.txtMagazaAlan.Name = "txtMagazaAlan";
-            this.txtMagazaAlan.Size = new System.Drawing.Size(317, 20);
+            this.txtMagazaAlan.Size = new System.Drawing.Size(318, 20);
             this.txtMagazaAlan.TabIndex = 23;
             this.txtMagazaAlan.TextChanged += new System.EventHandler(this.txtAlan_TextChanged);
             // 
@@ -274,9 +274,9 @@
             this.cmbMagazaTipi.Items.AddRange(new object[] {
             "FR",
             "GM"});
-            this.cmbMagazaTipi.Location = new System.Drawing.Point(228, 124);
+            this.cmbMagazaTipi.Location = new System.Drawing.Point(227, 124);
             this.cmbMagazaTipi.Name = "cmbMagazaTipi";
-            this.cmbMagazaTipi.Size = new System.Drawing.Size(317, 21);
+            this.cmbMagazaTipi.Size = new System.Drawing.Size(318, 21);
             this.cmbMagazaTipi.TabIndex = 24;
             this.cmbMagazaTipi.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
@@ -286,9 +286,9 @@
             this.cmbMagazaLokasyonTipi.Items.AddRange(new object[] {
             "AVM",
             "CAD"});
-            this.cmbMagazaLokasyonTipi.Location = new System.Drawing.Point(228, 157);
+            this.cmbMagazaLokasyonTipi.Location = new System.Drawing.Point(227, 157);
             this.cmbMagazaLokasyonTipi.Name = "cmbMagazaLokasyonTipi";
-            this.cmbMagazaLokasyonTipi.Size = new System.Drawing.Size(317, 21);
+            this.cmbMagazaLokasyonTipi.Size = new System.Drawing.Size(318, 21);
             this.cmbMagazaLokasyonTipi.TabIndex = 25;
             this.cmbMagazaLokasyonTipi.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
             // 
@@ -333,9 +333,9 @@
             "TEKİRDAĞ",
             "TRABZON",
             "VAN"});
-            this.cmbMagazaIli.Location = new System.Drawing.Point(228, 211);
+            this.cmbMagazaIli.Location = new System.Drawing.Point(227, 211);
             this.cmbMagazaIli.Name = "cmbMagazaIli";
-            this.cmbMagazaIli.Size = new System.Drawing.Size(317, 21);
+            this.cmbMagazaIli.Size = new System.Drawing.Size(318, 21);
             this.cmbMagazaIli.TabIndex = 27;
             this.cmbMagazaIli.SelectedIndexChanged += new System.EventHandler(this.comboBox6_SelectedIndexChanged);
             // 
@@ -387,7 +387,7 @@
             // 
             // txtMagazaMail
             // 
-            this.txtMagazaMail.Location = new System.Drawing.Point(225, 428);
+            this.txtMagazaMail.Location = new System.Drawing.Point(229, 428);
             this.txtMagazaMail.Name = "txtMagazaMail";
             this.txtMagazaMail.Size = new System.Drawing.Size(316, 20);
             this.txtMagazaMail.TabIndex = 34;
@@ -395,7 +395,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(633, 466);
+            this.btnSave.Location = new System.Drawing.Point(630, 456);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 36;
@@ -405,9 +405,9 @@
             // 
             // txtMagazaKisaKodu
             // 
-            this.txtMagazaKisaKodu.Location = new System.Drawing.Point(228, 69);
+            this.txtMagazaKisaKodu.Location = new System.Drawing.Point(227, 69);
             this.txtMagazaKisaKodu.Name = "txtMagazaKisaKodu";
-            this.txtMagazaKisaKodu.Size = new System.Drawing.Size(317, 20);
+            this.txtMagazaKisaKodu.Size = new System.Drawing.Size(318, 20);
             this.txtMagazaKisaKodu.TabIndex = 37;
             // 
             // errorProvider1
@@ -598,7 +598,7 @@
             this.txtMagazaSabitHatNo.Location = new System.Drawing.Point(229, 370);
             this.txtMagazaSabitHatNo.Mask = "(999) 000-0000";
             this.txtMagazaSabitHatNo.Name = "txtMagazaSabitHatNo";
-            this.txtMagazaSabitHatNo.Size = new System.Drawing.Size(312, 20);
+            this.txtMagazaSabitHatNo.Size = new System.Drawing.Size(316, 20);
             this.txtMagazaSabitHatNo.TabIndex = 56;
             // 
             // txtMagazaGSMNo
@@ -606,7 +606,7 @@
             this.txtMagazaGSMNo.Location = new System.Drawing.Point(228, 397);
             this.txtMagazaGSMNo.Mask = "(999) 000-0000";
             this.txtMagazaGSMNo.Name = "txtMagazaGSMNo";
-            this.txtMagazaGSMNo.Size = new System.Drawing.Size(313, 20);
+            this.txtMagazaGSMNo.Size = new System.Drawing.Size(317, 20);
             this.txtMagazaGSMNo.TabIndex = 57;
             // 
             // txtMagazaYetkilisiKisiselGSMNo
@@ -614,7 +614,7 @@
             this.txtMagazaYetkilisiKisiselGSMNo.Location = new System.Drawing.Point(227, 459);
             this.txtMagazaYetkilisiKisiselGSMNo.Mask = "(999) 000-0000";
             this.txtMagazaYetkilisiKisiselGSMNo.Name = "txtMagazaYetkilisiKisiselGSMNo";
-            this.txtMagazaYetkilisiKisiselGSMNo.Size = new System.Drawing.Size(314, 20);
+            this.txtMagazaYetkilisiKisiselGSMNo.Size = new System.Drawing.Size(318, 20);
             this.txtMagazaYetkilisiKisiselGSMNo.TabIndex = 58;
             // 
             // MagazaInformation
@@ -622,7 +622,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(764, 501);
+            this.ClientSize = new System.Drawing.Size(766, 491);
             this.Controls.Add(this.txtMagazaYetkilisiKisiselGSMNo);
             this.Controls.Add(this.txtMagazaGSMNo);
             this.Controls.Add(this.txtMagazaSabitHatNo);

@@ -29,10 +29,20 @@ namespace SuvariStoreManagement
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(cmbMagazaKisaKodu.Text))
+            {
+                cmbMagazaAdi.Enabled = true;
+            }
+            else
+            {
+                cmbMagazaAdi.Enabled = false;
+            }
+
         }
 
         private void geriToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            button2_Click(null, null);
             panel1.Visible = false;
             this.Width = formWidth;
             this.Height = formHeight;
@@ -40,6 +50,11 @@ namespace SuvariStoreManagement
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (cmbMagazaAdi.Text == "" && cmbMagazaKisaKodu.Text == "")
+            {
+                MessageBox.Show("Bir seçenek seçilmeli!");
+                return;
+            }
             panel1.Visible = true;
             formWidth = this.Width;
             formHeight = this.Height;
@@ -61,11 +76,28 @@ namespace SuvariStoreManagement
 
         private void cmbMagazaAdi_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(cmbMagazaAdi.Text))
+            {
+                cmbMagazaKisaKodu.Enabled = true;
+
+            }
+            else
+            {
+                cmbMagazaKisaKodu.Enabled = false;
+            }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            cmbMagazaAdi.Text = "";
+            cmbMagazaKisaKodu.Text = "";
+            cmbMagazaAdi.Enabled = true;
+            cmbMagazaKisaKodu.Enabled = true;
         }
 
     }

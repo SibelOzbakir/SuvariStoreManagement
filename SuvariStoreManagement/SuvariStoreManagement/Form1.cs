@@ -20,13 +20,13 @@ namespace SuvariStoreManagement
         private void button1_Click(object sender, EventArgs e)
         {
             MagazaInformation m = new MagazaInformation();
-            m.Show();
+            m.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             MagazaDelete md = new MagazaDelete();
-            md.Show();
+            md.ShowDialog();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -37,33 +37,34 @@ namespace SuvariStoreManagement
         private void btnMagazaGuncelle_Click(object sender, EventArgs e)
         {
             MagazaUpdate s = new MagazaUpdate();
-            s.Show();
+            s.ShowDialog();
         }
 
         private void btnMagazaRapor_Click(object sender, EventArgs e)
         {
             magazaSorgu n = new magazaSorgu();
-            n.Show();
+            n.ShowDialog();
 
         }
 
         private void btnMagazaBolgesel_Click(object sender, EventArgs e)
         {
             bolgeselSorgu bs = new bolgeselSorgu();
-            bs.Show();
+            bs.ShowDialog();
 
         }
 
         private void btnMagazaTurkiye_Click(object sender, EventArgs e)
         {
             turkiyeSorgu s = new turkiyeSorgu();
-            s.Show();
+            s.ShowDialog();
 
         }
 
         private void btnVeriEkle_Click(object sender, EventArgs e)
         {
-            
+            MagazaInformation infoForm = new MagazaInformation();
+            infoForm.ShowDialog();
         }
     }
 }

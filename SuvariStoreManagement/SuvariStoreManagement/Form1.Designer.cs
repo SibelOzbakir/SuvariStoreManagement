@@ -74,6 +74,7 @@
             // 
             // btnVeriEkle
             // 
+            this.btnVeriEkle.Enabled = false;
             this.btnVeriEkle.Location = new System.Drawing.Point(29, 148);
             this.btnVeriEkle.Name = "btnVeriEkle";
             this.btnVeriEkle.Size = new System.Drawing.Size(75, 23);
@@ -84,6 +85,7 @@
             // 
             // btnVeriSil
             // 
+            this.btnVeriSil.Enabled = false;
             this.btnVeriSil.Location = new System.Drawing.Point(140, 148);
             this.btnVeriSil.Name = "btnVeriSil";
             this.btnVeriSil.Size = new System.Drawing.Size(75, 23);
@@ -93,6 +95,7 @@
             // 
             // btnVeriGuncelle
             // 
+            this.btnVeriGuncelle.Enabled = false;
             this.btnVeriGuncelle.Location = new System.Drawing.Point(255, 148);
             this.btnVeriGuncelle.Name = "btnVeriGuncelle";
             this.btnVeriGuncelle.Size = new System.Drawing.Size(75, 23);
@@ -144,6 +147,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Enabled = false;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(26, 116);
             this.label2.Name = "label2";
